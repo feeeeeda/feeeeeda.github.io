@@ -80,7 +80,7 @@ body {
 
 #footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: var(--color);
   height: 10vh;
   align-items: center;
