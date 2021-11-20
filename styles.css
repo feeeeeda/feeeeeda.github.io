@@ -146,40 +146,48 @@ body {
     align-items: center;
     flex-direction: column;
   }
+  
   .description {
     margin-bottom: 6rem;
-    padding: 1rem 4rem;
+    padding: 1rem 1.5rem;
   }
+  
   .avatar-picture {
     margin-left: 0;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   
   .sites-container{
     height: 70vh;
   }
+  
   .container {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+  
   .sites-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
+  
   .sites-list:nth-child(2) {
     margin-bottom: 2rem;
   }
+  
   .sites-picture {
     margin-bottom: 50rem;
   }
+  
   .sites-list a {
     max-height: 155px;
     width: 300px;
