@@ -51,6 +51,7 @@ body {
   align-items: center;
   justify-content: space-around;
   height: 92vh;
+  width:100vw;
 }
 
 .description {
